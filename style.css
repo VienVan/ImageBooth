@@ -1,0 +1,170 @@
+body {
+    font-family: Ubuntu;
+}
+.container-fluid {
+    position: relative;
+}
+
+/**************SIDE BAR*************************/
+.left-sidebar {
+    position: fixed;
+    float: left;
+    background: rgba(0, 0, 0, 1);
+    height: 100%;
+}
+
+.logo {
+    margin: -10px;
+}
+
+.slogan {
+    color: white;
+    text-align: center;
+    font-family: Damion;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.contacts {
+    text-align: center;
+    padding: 20px;
+}
+
+.contacts p {
+    color: white;
+    font-size: 16px;
+}
+
+.nav {
+    color: white;
+    font-size: 20px;
+    font-family: Ubuntu; 
+    border-bottom: 1px solid rgba(255, 0, 0, .6);
+}
+/*****************************************SIDE BAR*************************/
+
+
+/******************************MAIN CONTENT *******************************/
+
+.page-content {
+    position: relative;
+    float: right;
+    padding: 20px;
+    overflow-x: hidden;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('VintageBackground.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+    text-align: center;
+}
+.main-quotes {
+    height: 700px;
+    padding-top: 200px;
+    color: white;
+    font-family: Dancing Script;
+}
+.main-quotes h1 {
+    font-size: 55px;
+}
+
+.main-quotes h3 {
+    display: none;
+    font-size: 20px;
+    font-family: Raleway;
+}
+hr {
+    margin-top: 300px;
+}
+/******************************MAIN CONTENT *******************************/
+
+
+
+/**********************************Sample Pic Page************************/
+.well {
+    background: rgba(0, 0, 0, .5);
+    border: none;
+}
+.samples-page {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('PixelsBackground.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.sample-pics {
+    text-align: center;
+}
+
+/**********************************Sample Pic Page************************/
+
+
+
+
+
+/***********************************Rates Page***************************/
+.rates {
+    border: 10px solid rgba(255, 255, 255, .5);
+}
+
+.rate-background {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('PixelsBackground.jpg');
+    background-size: cover;
+}
+
+.rate-pic {
+    height: 700px;
+    padding: 50px;
+}
+
+.rates {
+    margin: 10px auto;
+}
+/***********************************Rates Page***************************/
+
+/***********************************Setup Page***************************/
+
+.setup1 {
+    width: 1200px;
+    height: 900px;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .3)), url('./photobooth1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.setup2 {
+    width: 1200px;
+    height: 900px;
+    background: url('./photobooth2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.setup3 {
+    width: 1200px;
+    height: 900px;
+    background: url('./photobooth3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.setup4 {
+    width: 1200px;
+    height: 900px;
+    background: url('./photobooth4.jpg');
+    background-size: contain;
+    background-position: left;
+    background-attachment: fixed;
+}
+
+.setup5 {
+    width: 100%;
+    height: 800px;
+    background: url('./photobooth5.jpg')
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/***********************************Setup Page***************************/
+
+
+
+
