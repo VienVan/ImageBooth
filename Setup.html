@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Houston Photo Booth">
+    <meta name="keywords" content="Houston, Photo, Booth, Photo Booth, Image Booth">
+    <meta name="author" content="Image Booth">
     <title>Image Booth</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href='style.css' type='text/css' rel='stylesheet'>
@@ -18,20 +21,49 @@
 
 <body>
         <div class='container-fluid'>
+              <div class='navbar navbar-default navbar-fixed-top hidden-lg'>
+            <div class='container custom-navbar'>
+                
+                <img src='ImageBoothLogo.jpg' width='200px'>
+                <a href='#' class='navbar-brand nav2'>The Key To Your Party</a>
+                    <button class = 'navbar-toggle' data-toggle = 'collapse' data-target= '.navHeaderCollapse'>
+                        <span class = 'icon-bar'></span>
+                        <span class = 'icon-bar'></span>
+                        <span class = 'icon-bar'></span>
+                    </button>
+              
+                
+                <div class = 'collapse navbar-collapse navHeaderCollapse'>
+                            <ul class ='nav navbar-nav navbar-center'>
+                                <li><a href='./index.html' class='nav2'>Home</a></li>
+                                <li><a href='./Samples.html' class='nav2'>Samples</a></li>
+                                <li><a href='./Rates.html' class='nav2'>Rates</a></li>
+                                <li><a href='./Setup.html' class='nav2'>Set Up</a></li>
+                                <li class='dropdown'>
+                                <a href='#' class='dropdown-toggle nav2' data-toggle='dropdown'>Contacts</a>
+                                    <ul class='nav dropdown-menu'>
+                                        <li><a href='#' class='nav2'>(281) 795 6339</a></li>
+                                        <li><a href='mailto:info@imagebooth.rentals' class='nav2'>Email Us</a></li>
+                                        <li><a href="https://www.instagram.com/imagebooth/?ref=badge" class='nav2'>Instagram</a></li>
+                                    </ul>
+                                
+                            </li>
+                            </ul>
+                </div>
+        </div>
+            </div>
             <div class='row'>
-                 <div class='col-sm-6 col-md-3 col-lg-3 left-sidebar'>
-                    
-                    <button class='navbar-toggle' data-toggle='collapse' data-target='.sidebar-collapse'>Toggle</button>
+                 <div class='col-lg-3 left-sidebar hidden-sm hidden-xs'>
                     
                     <img src='imageboothblack.jpg' alt='Image Booth' class='logo' width='300px' height='300px'>
                     
                     <h4 class='slogan'>The Key To Your Party</h4>
                 
                         <ul class='nav navbar-center'>
-                            <li><a href='./index.html' class='nav'>Home</a></li>
-                            <li><a href='./Samples.html' class='nav'>Samples</a></li>
-                            <li><a href='./Rates.html' class='nav'>Rates</a></li>
-                            <li><a href='./Setup.html' class='nav'>Set Up</a></li>
+                            <li><a href='./index.html' class='nav1'>Home</a></li>
+                            <li><a href='./Samples.html' class='nav1'>Samples</a></li>
+                            <li><a href='./Rates.html' class='nav1'>Rates</a></li>
+                            <li><a href='./Setup.html' class='nav1'>Set Up</a></li>
                         </ul>
                     
                     <div class='contacts'>
@@ -40,7 +72,7 @@
                     </div>
                 </div>
 
-                <div class='col-lg-9 page-content setup-background'>
+                <div class='col-xs-12 col-sm-12 col-md-12 col-lg-9 page-content setup-background'>
                     <h3 class='setup-quote'>At ImageBooth we use only the best, state of the art equipment.</h3>
                     <h5 class='setup-quote2'>Get high quality prints in less than 7 seconds!</h5>
                     <div class='wrapper'>
@@ -53,5 +85,7 @@
             </div>
     </div>
 
-
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src='js/bootstrap.js'></script>
 </body>

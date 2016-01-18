@@ -1,37 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Houston Photo Booth">
+    <meta name="keywords" content="Houston, Photo, Booth, Photo Booth, Image Booth">
+    <meta name="author" content="Image Booth">
     <title>Image Booth</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href='style.css' type='text/css' rel='stylesheet'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Laila' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
-    <link href="mediaqueries.css" rel="stylesheet" />
 </head>
 
 <body>
         <div class='container-fluid'>
+            <div class='navbar navbar-default navbar-fixed-top hidden-lg'>
+            <div class='container custom-navbar'>
+                
+                <img src='ImageBoothLogo.jpg' width='200px'>
+                <a href='#' class='navbar-brand nav2'>The Key To Your Party</a>
+                    <button class = 'navbar-toggle' data-toggle = 'collapse' data-target= '.navHeaderCollapse'>
+                        <span class = 'icon-bar'></span>
+                        <span class = 'icon-bar'></span>
+                        <span class = 'icon-bar'></span>
+                    </button>
+              
+                
+                <div class = 'collapse navbar-collapse navHeaderCollapse'>
+                            <ul class ='nav navbar-nav navbar-center'>
+                                <li><a href='./index.html' class='nav2'>Home</a></li>
+                                <li><a href='./Samples.html' class='nav2'>Samples</a></li>
+                                <li><a href='./Rates.html' class='nav2'>Rates</a></li>
+                                <li><a href='./Setup.html' class='nav2'>Set Up</a></li>
+                                <li class='dropdown'>
+                                <a href='#' class='dropdown-toggle nav2' data-toggle='dropdown'>Contacts</a>
+                                    <ul class='nav dropdown-menu'>
+                                        <li><a href='#' class='nav2'>(281) 795 6339</a></li>
+                                        <li><a href='mailto:info@imagebooth.rentals' class='nav2'>Email Us</a></li>
+                                        <li><a href="https://www.instagram.com/imagebooth/?ref=badge" class='nav2'>Instagram</a></li>
+                                    </ul>
+                                
+                            </li>
+                            </ul>
+                </div>
+        </div>
+            </div>
+
             <div class='row'>
-                <div class='col-sm-6 col-md-3 col-lg-3 left-sidebar'>
-                    
-                    <button class='navbar-toggle' data-toggle='collapse' data-target='.sidebar-collapse'>Toggle</button>
+                <div class='col-lg-3 left-sidebar hidden-sm hidden-xs'>
                     
                     <img src='imageboothblack.jpg' alt='Image Booth' class='logo' width='300px' height='300px'>
                     
                     <h4 class='slogan'>The Key To Your Party</h4>
                 
                         <ul class='nav navbar-center'>
-                            <li><a href='./index.html' class='nav'>Home</a></li>
-                            <li><a href='./Samples.html' class='nav'>Samples</a></li>
-                            <li><a href='./Rates.html' class='nav'>Rates</a></li>
-                            <li><a href='./Setup.html' class='nav'>Set Up</a></li>
+                            <li><a href='./index.html' class='nav1'>Home</a></li>
+                            <li><a href='./Samples.html' class='nav1'>Samples</a></li>
+                            <li><a href='./Rates.html' class='nav1'>Rates</a></li>
+                            <li><a href='./Setup.html' class='nav1'>Set Up</a></li>
                         </ul>
                     
                     <div class='contacts'>
@@ -39,12 +71,12 @@
                         <p><a href='mailto:info@imagebooth.rentals'>Email Us</a></p>
                     </div>
                 </div>
-                <div class='col-xs-12 col-sm-6 col-md-9 col-lg-9 page-content wrapper'>
+                <div class='col-xs-12 col-sm-12 col-md-12 col-lg-9 page-content wrapper'>
                         <div class='main-quotes'>
                             <h1>Create memories that last forever.</h1>
                         </div>
                         <div class='mainpage social-media'>
-                            <p>Get high quality prints in less than 7 seconds! Dont't wait for your picture with our Text-to-Phone feature. After your session, you will be prompted on our touch screen monitor to enter your cell phone number. Upon doing so, you will receive a text message containing a digital copy of your photo strip! This is helpful when guests are wanting to upload a high quality version of their photo directly to any social media platform.</p>
+                            <p>Get high quality prints in less than 7 seconds! Don't wait for your picture with our Text-to-Phone feature. After your session, you will be prompted on our touch screen monitor to enter your cell phone number. Upon doing so, you will receive a text message containing a digital copy of your photo strip! This is helpful when guests are wanting to upload a high quality version of their photo directly to any social media platform.</p>
                         </div>
                                
                     
@@ -66,21 +98,9 @@
                 
             </div>
     </div>
-
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src='js/bootstrap.js'></script>
 </body>
 
     
-<!--
-<div class='navbar navbar-inverse'>
-                <div class='navbar-header'>
-                    <p>ImageBooth</p>
-                     <p>(281) 795 6339 | <a href="https://www.instagram.com/imagebooth/?ref=badge" class="ig-b- ig-b-32"><img src="//badges.instagram.com/static/images/ig-badge-32.png" alt="Instagram" /></a></p>
-                    <p><a href='mailto:info@imagebooth.rentals'>Email Us</a></p>
-                </div>
-            </div>
-                 <ul class='nav navbar-nav'>
-                            <li><a href='./index.html' class='nav'>Home</a></li>
-                            <li><a href='./Samples.html' class='nav'>Samples</a></li>
-                            <li><a href='./Rates.html' class='nav'>Rates</a></li>
-                            <li><a href='./Setup.html' class='nav'>Set Up</a></li>
-                </ul>-->

@@ -1,6 +1,4 @@
-body {
-    font-family: Ubuntu;
-}
+
 .container-fluid {
     position: relative;
 }
@@ -9,12 +7,17 @@ body {
 .left-sidebar {
     position: fixed;
     float: left;
+    padding-right: 20px;
     background: rgba(0, 0, 0, 1);
     height: 100%;
 }
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
 
 .logo {
-    margin: -40px 0 0 0;
+    margin: -40px -20px 0px 0px;
 }
 
 .slogan {
@@ -23,6 +26,7 @@ body {
     font-family: Damion;
     font-weight: 100;
     font-size: 40px;
+    margin-top: -50px;
 }
 
 .contacts {
@@ -48,17 +52,33 @@ body {
     font-family: Raleway;
 }
 
-.nav {
-    color: white;
+.nav1 {
+    color: white; 
     font-size: 20px;
     font-family: Ubuntu; 
     border-bottom: 1px solid rgba(255, 0, 0, .6);
 }
-.nav:hover {
+.nav1:hover {
     color: red;
 }
-
-
+.navbar-default {
+    background: rgba(0, 0, 0, 1);
+    border-bottom: 1px solid red;
+}
+.navbar-brand {
+    font-family: Damion;
+    font-size: 30px !important;
+}
+.nav2 {
+    font-size: 18px;
+    color: white !important;
+}
+.nav2:hover {
+    color: red !important;
+}
+.dropdown-menu {
+    background: rgba(0, 0, 0, .4);
+}
 /*****************************************SIDE BAR*************************/
 
 
@@ -74,6 +94,11 @@ body {
 }
 .wrapper {
     height: 100%;
+}
+@media only screen and (max-device-width: 1000px) {
+    .main-quotes: {
+        background: red;
+    };
 }
 .main-quotes {
     color: white;
@@ -93,7 +118,7 @@ body {
     font-size: 20px;
     padding: 0 20px;
     text-align: justify;
-    font-family: Raleway;
+    font-family: Open Sans;
 }
 .mainpage {
     height: 100%;
@@ -115,10 +140,9 @@ body {
     background-size: cover;
 }
 .key {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('http://images.wisegeek.com/brass-key.jpg');
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/J66YF48JZM.jpg');
     background-attachment: fixed;
     background-size: cover;
-    background-position: 300px;
 }
 
 footer {
@@ -164,6 +188,8 @@ footer {
 .rate-background {
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('https://static.pexels.com/photos/370/lights-night-dark-abstract.jpeg');
     background-size: cover;
+    height: 800px;
+    padding-top: 80px;
 }
 .rate-pic {
     margin-top: 20px;
@@ -205,5 +231,17 @@ li {
 /***********************************Setup Page***************************/
 
 
+@media (max-width: 900px) {
+    .page-content {
+        margin-top: 250px;
+    }
+    .main-quotes {
+        background-size: contain;
+        background-position: top;
+    }
+    .main-quotes h1 {
+        font-size: 50px;
+    }
+}
 
 
